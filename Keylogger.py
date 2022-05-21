@@ -72,10 +72,10 @@ def Check_file():
         #Call function to send files asap
             print(f"More than {rand_ints} letters...")
             print("wew")
-            #Send_file()
+            Send_file()
 
-        #with open(hostname + '.txt', 'w+') as file:
-            #pass
+        with open(hostname + '.txt', 'w+') as file:
+            pass
         
 
     
